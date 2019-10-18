@@ -1,6 +1,6 @@
 # team-12
 
-### How to start app
+### How to start react native app
 
 #### 1. cd into jpm-react folder containing app.js
 #### 2. open cmd
