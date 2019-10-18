@@ -6,9 +6,10 @@ import t from 'tcomb-form-native';
 const Form = t.form.Form;
 
 const User = t.struct({
+  first_name: t.String,
+  middle_initial: t.maybe(t.String),
+  last_name: t.String,
   email: t.String,
-  username: t.maybe(t.String),
-  password: t.String,
   terms: t.Boolean
 });
 
