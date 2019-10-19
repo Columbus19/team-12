@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View , Button} from 'react-native';
-import HomeScreen from './pages/HomeScreen.js'
+import HomeScreen from './pages/home_screen.js'
 
 export default function App() {
   return (
