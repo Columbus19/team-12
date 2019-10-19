@@ -111,8 +111,7 @@ const User = t.struct({
   agree4: t.Boolean, 
   agree5: t.Boolean, 
   agree6: t.Boolean, 
-  agree7: t.Boolean, 
-  terms: t.Boolean
+  agree7: t.Boolean
 });
 
 const formStyles = {
